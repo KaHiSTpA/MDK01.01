@@ -1,0 +1,32 @@
+## Временные файлы сборки .NET (Исправлено)
+bin/
+obj/
+artifacts/
+
+
+## [Раздел 2] Файлы настроек сред разработки (Visual Studio / Rider)
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## [Раздел 3] Инструменты тестирования и анализа кода
+TestResults/
+*.trx
+*.vstest
+.vs-code/
+
+## [Раздел 4] Локальные секреты и конфигурация пользователя
+appsettings.Development.json
+appsettings.Local.json
+*.usersecrets
+.env
+
+## [Раздел 5] Кэш пакетных менеджеров (NuGet)
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.nuget.props
+*.nuget.targets
